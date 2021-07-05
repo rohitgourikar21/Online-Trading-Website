@@ -1,0 +1,68 @@
+*{ margin: 0 ; padding: 0; box-sizing: border-box;}
+
+a{text-decoration: none; }
+
+a:hover{text-decoration: none;}
+
+li{list-style: none;}
+
+.container{
+    text-align: center;}
+    .nav-item a{
+        color: #000000;
+    }
+    .nav-link{
+      font-family: "times new roman;"
+   
+    }
+    #ro {
+        margin-right: 40px;
+    }
+    .header{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .container-fluid{
+        text-align: center;
+        background: #ffffff;
+    }
+    .header{
+        padding-top: 20px;
+        color: #444;
+        font-size: 16px;
+        margin: 50px;
+        line-height: 30px;
+     }
+     .sub-container{
+        max-width: 800px;
+        margin: auto;
+        padding: 10px 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .teams {
+        margin: 10px;
+        padding: 22px;
+        max-width: 30%;
+        cursor: pointer;
+        transition: 0 4s;
+        box-sizing: border-box;
+     }
+     
+     .name{
+        padding: 12px;
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+     }
+     
+     .design{
+        font-style: Imprint MT Shadow;
+        color: black;
+     }
+     .lastsection{
+        margin-left: -50px;
+        margin-right: -50px;
+        margin-bottom: -40px;
+     }
+     

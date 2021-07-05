@@ -1,0 +1,134 @@
+*{ margin: 0 ; padding: 0; box-sizing: border-box;}
+
+a{text-decoration: none; }
+
+a:hover{text-decoration: none;}
+
+li{list-style: none;}
+
+.container{
+    text-align: center;}
+    .nav-item a{
+        color: #000000;
+    }
+    .nav-link{
+      font-family: "times new roman;"
+   
+    }
+    
+
+    #ro {
+        margin-right: 40px;
+    }
+    p{
+        font-size: 0.9rem;
+        line-height: 1.6;
+        font-weight: 400;
+        color: #606060;
+    }
+    
+       
+/************ Header Part Start ************/
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(223, 255, 236,1),rgba(223, 255, 236,1)), url('../images/11.jpg');
+   background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%,100% 45%, 50% 100%, 0% 45%, 0% 0%); 
+	position: relative;
+}
+    .header-section{
+        width: 100%;
+        height: inherit;
+        color: #0c016e;
+        text-align: center;
+        position: relative;
+    }
+    .center-div{
+        width: 100%;
+         height: auto;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         -ms-ransform: translate(-50%,-50%);
+         -webkit-transform: translate(-50%,-50%);
+    }
+    .center-div p{
+        font-size: 1.5rem;
+        padding: 10px 0 20px 0;
+        color: black;
+    }
+    .header-buttons a{
+        border: 1px solid #fff;
+        border-radius: 100px;
+        margin: 0 5px;
+        padding: 12px 35px;
+        outline: none;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: center;
+    }
+    .header-buttons a:hover{
+        color: black;
+        background: #fff;
+        text-decoration: none;
+        box-shadow: 0 0 20px 0 rgb(255, 0, 0,);
+        text:  black;
+   
+    }
+/************ Header Part End ************/
+
+/**************Three extra header div Start ************/
+
+.header-extradiv{
+    width: 100%; height: auto;
+    margin: 100px 0;
+    text-align: center;
+    color: #0c016e;
+ }
+ .extra-div{
+    background-color: white;
+    border: medium none;
+    padding: 60px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+ }
+ .extra-div:hover{
+   box-shadow: 0 0 30px 0 rgba(255,0,0,0.1);
+   transform:translatey(-20px);
+   
+}
+.extra-div h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;   
+   }
+/**************Three extra header div end ************/
+   .feature-section{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10vh;
+ }
+ .col-inner{
+    font-family: "times new roman;"
+    
+    }
+    .rt{
+        color: #0c016e;
+        font-family: times new roman;
+        
+     }
+     /* txx */
+     
+     
